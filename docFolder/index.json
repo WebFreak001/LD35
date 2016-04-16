@@ -1,0 +1,212 @@
+[
+ {
+  "name" : "app",
+  "kind" : "module",
+  "file" : "source/app.d",
+  "members" : [
+   {
+    "name" : "ld35.game",
+    "kind" : "import",
+    "line" : 3,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "main",
+    "kind" : "function",
+    "line" : 5,
+    "char" : 6,
+    "deco" : "FAAyaZv",
+    "parameters" : [
+     {
+      "name" : "args",
+      "deco" : "AAya"
+     }
+    ],
+    "endline" : 8,
+    "endchar" : 1
+   }
+  ]
+ },
+ {
+  "name" : "ld35.game",
+  "kind" : "module",
+  "file" : "source/ld35/game.d",
+  "members" : [
+   {
+    "name" : "d2d",
+    "kind" : "import",
+    "line" : 3,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "Game1",
+    "kind" : "class",
+    "line" : 5,
+    "char" : 1,
+    "base" : "d2d.toolkit.game.Game",
+    "members" : [
+     {
+      "name" : "start",
+      "kind" : "function",
+      "line" : 7,
+      "char" : 16,
+      "storageClass" : [
+       "override"
+      ],
+      "deco" : "FZv",
+      "endline" : 14,
+      "endchar" : 2,
+      "overrides" : [
+       "d2d.toolkit.game.Game.start"
+      ]
+     },
+     {
+      "name" : "load",
+      "kind" : "function",
+      "line" : 16,
+      "char" : 16,
+      "storageClass" : [
+       "override"
+      ],
+      "deco" : "FZv",
+      "endline" : 30,
+      "endchar" : 2,
+      "overrides" : [
+       "d2d.toolkit.game.Game.load"
+      ]
+     },
+     {
+      "name" : "update",
+      "kind" : "function",
+      "line" : 32,
+      "char" : 16,
+      "storageClass" : [
+       "override"
+      ],
+      "deco" : "FfZv",
+      "parameters" : [
+       {
+        "name" : "delta",
+        "deco" : "f"
+       }
+      ],
+      "endline" : 40,
+      "endchar" : 2,
+      "overrides" : [
+       "d2d.toolkit.game.Game.update"
+      ]
+     },
+     {
+      "name" : "onEvent",
+      "kind" : "function",
+      "line" : 42,
+      "char" : 16,
+      "storageClass" : [
+       "override"
+      ],
+      "deco" : "FS3d2d6window11windowevent11WindowEventZv",
+      "originalType" : "void(Event event)",
+      "parameters" : [
+       {
+        "name" : "event",
+        "deco" : "S3d2d6window11windowevent11WindowEvent"
+       }
+      ],
+      "endline" : 58,
+      "endchar" : 2,
+      "overrides" : [
+       "d2d.toolkit.game.Game.onEvent"
+      ]
+     },
+     {
+      "name" : "draw",
+      "kind" : "function",
+      "line" : 60,
+      "char" : 16,
+      "storageClass" : [
+       "override"
+      ],
+      "deco" : "FZv",
+      "endline" : 79,
+      "endchar" : 2,
+      "overrides" : [
+       "d2d.toolkit.game.Game.draw"
+      ]
+     },
+     {
+      "name" : "font",
+      "kind" : "variable",
+      "protection" : "private",
+      "line" : 82,
+      "char" : 10,
+      "deco" : "C3d2d4font7ttffont7TTFFont",
+      "originalType" : "TTFFont",
+      "offset" : 104
+     },
+     {
+      "name" : "text",
+      "kind" : "variable",
+      "protection" : "private",
+      "line" : 83,
+      "char" : 10,
+      "deco" : "C3d2d4font7ttftext7TTFText",
+      "originalType" : "TTFText",
+      "offset" : 112
+     },
+     {
+      "name" : "successText",
+      "kind" : "variable",
+      "protection" : "private",
+      "line" : 84,
+      "char" : 10,
+      "deco" : "C3d2d4font7ttftext7TTFText",
+      "originalType" : "TTFText",
+      "offset" : 120
+     },
+     {
+      "name" : "shape",
+      "kind" : "variable",
+      "protection" : "private",
+      "line" : 85,
+      "char" : 17,
+      "deco" : "C3d2d9rendering14rectangleshape14RectangleShape",
+      "originalType" : "RectangleShape",
+      "offset" : 128
+     },
+     {
+      "name" : "shapeTex",
+      "kind" : "variable",
+      "protection" : "private",
+      "line" : 86,
+      "char" : 10,
+      "deco" : "C3d2d9rendering7texture7Texture",
+      "originalType" : "Texture",
+      "offset" : 136
+     },
+     {
+      "name" : "successTime",
+      "kind" : "variable",
+      "protection" : "private",
+      "line" : 87,
+      "char" : 8,
+      "deco" : "f",
+      "init" : "0.00000F",
+      "offset" : 144
+     },
+     {
+      "name" : "success",
+      "kind" : "variable",
+      "protection" : "private",
+      "line" : 88,
+      "char" : 7,
+      "deco" : "b",
+      "init" : "false",
+      "offset" : 148
+     }
+    ]
+   }
+  ]
+ }
+]

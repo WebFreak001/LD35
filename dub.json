@@ -1,0 +1,11 @@
+{
+	"name": "ld35",
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2016, webfreak",
+	"authors": [
+		"webfreak"
+	],
+	"dependencies": {
+		"d2dgame": "~>2.0.3"
+	}
+}
